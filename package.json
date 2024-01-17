@@ -1,5 +1,5 @@
 {
-  "name": "node-project-template",
+  "name": "sipc",
   "version": "1.3.0",
   "scripts": {
     "lint:check": "eslint .",
@@ -25,12 +25,18 @@
   "homepage": "https://github.com/MichaelCurrin/node-project-template#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichaelCurrin/node-project-template"
+    "url": "git+https://github.com/MichaelCurrin/node-project-template.git"
   },
-  "bugs": "https://github.com/MichaelCurrin/node-project-template/issues",
+  "bugs": {
+    "url": "https://github.com/MichaelCurrin/node-project-template/issues"
+  },
   "keywords": [
     "template",
     "skeleton",
     "quickstart"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  }
 }
